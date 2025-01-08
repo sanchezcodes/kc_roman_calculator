@@ -1,6 +1,6 @@
 
 from __future__ import annotations
-from shell_calculator.models import a_arabigo, a_romano, RomanNumberError
+from calc.models import a_arabigo, a_romano, RomanNumberError
 from typing import Union, Callable
 
 class Roman_Number:
