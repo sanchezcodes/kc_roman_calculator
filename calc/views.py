@@ -50,6 +50,7 @@ class Display(tk.Frame):
     def show(self, text: str):
         self.lbl_display.config(text=text)
 
+
 class Calculator(tk.Frame):
     def __init__(self, parent, command: Callable):
         super().__init__(parent)
@@ -63,4 +64,3 @@ class Calculator(tk.Frame):
 
     def show(self, text: str):
         self.display.show(text)
-
